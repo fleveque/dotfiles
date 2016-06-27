@@ -17,11 +17,11 @@ function title() {
   esac
 }
 
-function tabname {
+function tabname() {
   printf "\e]1;$1\a"
 }
 
-function winname {
+function winname() {
   printf "\e]2;$1\a"
 }
 

@@ -5,6 +5,7 @@
       "exception-reporting"
       "metrics"
     ]
+    followSymlinks: false
     hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
@@ -15,17 +16,21 @@
       "vendor"
     ]
     projectHome: "~/Documents/src"
+    telemetryConsent: "no"
     themes: [
       "unity-ui"
       "glacier-syntax"
     ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 12
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
-    softWrap: true
-    tabType: "soft"
+    softWrapAtPreferredLineLength: true
+  "go-plus":
+    panelDisplayMode: "closed"
+  "linter-eslint":
+    useGlobalEslint: true
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
@@ -33,6 +38,7 @@
       "text.plain"
       "source.gfm"
       "text.git-commit"
+      "text.html.basic"
     ]
   welcome:
     showOnStartup: false
